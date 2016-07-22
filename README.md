@@ -1,4 +1,4 @@
-# GooglePlacesPicker
+# SimpleJSONParser
 Swift IOS Pod. SimpleJSONParser lets a user simply parse JSON to any NSObject.
 
 Import:
