@@ -7,24 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7A2CB781D4105250080E2B4 /* SimpleJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A2CB771D4105250080E2B4 /* SimpleJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7A2CB801D41055D0080E2B4 /* NSObject+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A2CB7F1D41055D0080E2B4 /* NSObject+JSON.swift */; };
-		D7A2CB851D41056C0080E2B4 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A2CB811D41056C0080E2B4 /* Test.swift */; };
-		D7A2CB871D41056C0080E2B4 /* PropertyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A2CB831D41056C0080E2B4 /* PropertyUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7A2CB881D41056C0080E2B4 /* PropertyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A2CB841D41056C0080E2B4 /* PropertyUtil.m */; };
-		D7A2CBA71D410F460080E2B4 /* SimpleJSONParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A2CBA61D410F460080E2B4 /* SimpleJSONParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7A2CBF41D4220820080E2B4 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = D7A2CBF31D4220820080E2B4 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7A2CB741D4105250080E2B4 /* SimpleJSONParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJSONParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A2CB771D4105250080E2B4 /* SimpleJSONParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleJSONParser.h; sourceTree = "<group>"; };
-		D7A2CB791D4105250080E2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7A2CB7F1D41055D0080E2B4 /* NSObject+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+JSON.swift"; sourceTree = "<group>"; };
-		D7A2CB811D41056C0080E2B4 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		D7A2CB831D41056C0080E2B4 /* PropertyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyUtil.h; sourceTree = "<group>"; };
-		D7A2CB841D41056C0080E2B4 /* PropertyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyUtil.m; sourceTree = "<group>"; };
-		D7A2CBA51D410F290080E2B4 /* SimpleJSONParser.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = SimpleJSONParser.modulemap; sourceTree = "<group>"; };
-		D7A2CBA61D410F460080E2B4 /* SimpleJSONParser-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleJSONParser-umbrella.h"; sourceTree = "<group>"; };
+		D7A2CBF31D4220820080E2B4 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +45,7 @@
 		D7A2CB761D4105250080E2B4 /* SimpleJSONParser */ = {
 			isa = PBXGroup;
 			children = (
-				D7A2CB771D4105250080E2B4 /* SimpleJSONParser.h */,
-				D7A2CB811D41056C0080E2B4 /* Test.swift */,
-				D7A2CB831D41056C0080E2B4 /* PropertyUtil.h */,
-				D7A2CBA51D410F290080E2B4 /* SimpleJSONParser.modulemap */,
-				D7A2CB841D41056C0080E2B4 /* PropertyUtil.m */,
-				D7A2CB7F1D41055D0080E2B4 /* NSObject+JSON.swift */,
-				D7A2CBA61D410F460080E2B4 /* SimpleJSONParser-umbrella.h */,
-				D7A2CB791D4105250080E2B4 /* Info.plist */,
+				D7A2CBF31D4220820080E2B4 /* Classes */,
 			);
 			path = SimpleJSONParser;
 			sourceTree = "<group>";
@@ -76,9 +57,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A2CBA71D410F460080E2B4 /* SimpleJSONParser-umbrella.h in Headers */,
-				D7A2CB781D4105250080E2B4 /* SimpleJSONParser.h in Headers */,
-				D7A2CB871D41056C0080E2B4 /* PropertyUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A2CBF41D4220820080E2B4 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +129,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A2CB801D41055D0080E2B4 /* NSObject+JSON.swift in Sources */,
-				D7A2CB851D41056C0080E2B4 /* Test.swift in Sources */,
-				D7A2CB881D41056C0080E2B4 /* PropertyUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +174,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MODULEMAP_PRIVATE_FILE = SimpleJSONParser/Classes/SimpleJSONParser.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -241,6 +218,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MODULEMAP_PRIVATE_FILE = SimpleJSONParser/Classes/SimpleJSONParser.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -258,10 +236,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SimpleJSONParser/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_PRIVATE_FILE = SimpleJSONParser/SimpleJSONParser.modulemap;
+				MODULEMAP_FILE = "${SRCROOT}/SimpleJSONParser/Classes/SimpleJSONParser.modulemap";
+				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidstudio.SimpleJSONParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -278,10 +257,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SimpleJSONParser/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_PRIVATE_FILE = SimpleJSONParser/SimpleJSONParser.modulemap;
+				MODULEMAP_FILE = "${SRCROOT}/SimpleJSONParser/Classes/SimpleJSONParser.modulemap";
+				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.voidstudio.SimpleJSONParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -308,6 +288,7 @@
 				D7A2CB7E1D4105250080E2B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
