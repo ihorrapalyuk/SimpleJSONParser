@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.homepage = "https://github.com/ihorrapalyuk/SimpleJSONParser"
   s.license = { :type => 'MIT', :file => 'LICENSE' }
-  s.author = { "Ihor Rapalyuk" => "https://ua.linkedin.com/in/ihor-rapalyuk-9620baa1" }
+  s.author = { "Ihor Rapalyuk" => "i.rapalyuk2012@gmail.com" }
   s.source = { :git => "https://github.com/ihorrapalyuk/SimpleJSONParser.git", :tag => "0.1.0"}
   s.source_files  = "Classes/**/*.{swift,h,m}"
   s.requires_arc = true
