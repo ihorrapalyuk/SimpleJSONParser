@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1025CD386776CA82659A3E591D09025C /* Pods-SimpleJSONExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3673DB3FCA7246BE5C4BC7A490270F82 /* Pods-SimpleJSONExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		199BBCE11FC76FA28CD45D4AC9B4EAD3 /* Pods-SimpleJSONExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBCE5B6CF6A41B9D69E18202959D419 /* Pods-SimpleJSONExample-dummy.m */; };
+		1DC1B86D72F7F7D581C928F758B934C5 /* SimpleJSONParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1522149592722F7311275CBB11F8FB2 /* SimpleJSONParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2378C438A166661B4E8187F5759A64C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		433B8EF2795AC478109EB95DA0D6DA9B /* NSObject+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0676C308321F7B0E9C41B216F13E1764 /* NSObject+JSON.swift */; };
+		5ED6CF5FA3AFF9006954C126F7C0A7F0 /* PropertyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7178A7111EEF31711F115D13A45C15 /* PropertyUtil.m */; };
+		8C1D82A2E55AA0912B6CBE6358CC3B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		93411D8626BFF2AF136D151785D5C9A1 /* SimpleJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D021126B175128130762B871D15376 /* SimpleJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5945E415D85B3BD082D997905E47097 /* SimpleJSONParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A703127DF536A122106E1E6587ECF1 /* SimpleJSONParser-dummy.m */; };
+		AF88BB915899B200A46D426834167E6A /* PropertyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F174FCC2BA574FC491E7B84A25FAE496 /* PropertyUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28DDAA82E0F01F084A03F880AC7FD57 /* SimpleJSONParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBBA462F73485CE775DF937201BF0D3 /* SimpleJSONParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6E012CBDBF653F88F1FFCDC6A75D33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83F54A475A942BA94F39FA7F82623D6;
+			remoteInfo = SimpleJSONParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0676C308321F7B0E9C41B216F13E1764 /* NSObject+JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+JSON.swift"; path = "Classes/NSObject+JSON.swift"; sourceTree = "<group>"; };
+		0741584C880B26E113770C1394957C06 /* Pods_SimpleJSONExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleJSONExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7882D386DD18EEFA1E6DF527818DB9 /* SimpleJSONParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleJSONParser-prefix.pch"; sourceTree = "<group>"; };
+		139F9E5E18F6DA616EDBC4900D7C8D77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D021126B175128130762B871D15376 /* SimpleJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleJSONParser.h; path = Classes/SimpleJSONParser.h; sourceTree = "<group>"; };
+		1F0E0F5AEFCA909F479AD3127CB4399B /* SimpleJSONParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleJSONParser.xcconfig; sourceTree = "<group>"; };
+		20C3E034E90F1F72BCE795F9EE2663BC /* SimpleJSONParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleJSONParser.modulemap; sourceTree = "<group>"; };
+		3673DB3FCA7246BE5C4BC7A490270F82 /* Pods-SimpleJSONExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleJSONExample-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4EBCE5B6CF6A41B9D69E18202959D419 /* Pods-SimpleJSONExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleJSONExample-dummy.m"; sourceTree = "<group>"; };
+		59340A9542606392D166BCA046A92180 /* Pods-SimpleJSONExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleJSONExample-frameworks.sh"; sourceTree = "<group>"; };
+		5C7178A7111EEF31711F115D13A45C15 /* PropertyUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PropertyUtil.m; path = Classes/PropertyUtil.m; sourceTree = "<group>"; };
+		7B1162155DF28EC673DCA1D94F9CB07A /* Pods-SimpleJSONExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleJSONExample.release.xcconfig"; sourceTree = "<group>"; };
+		9B25450342EDEA1D3C16640E4FD968B7 /* Pods-SimpleJSONExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleJSONExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CCB4BE196A4D283DB1FD289EEB518A2 /* Pods-SimpleJSONExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleJSONExample-resources.sh"; sourceTree = "<group>"; };
+		A1A9A15112079328183E9C5F3639D44F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A414DA79274C8E783C72340F426AFBD1 /* Pods-SimpleJSONExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleJSONExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B094FFC8F2192283C66FE336AD47ACF5 /* Pods-SimpleJSONExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleJSONExample.modulemap"; sourceTree = "<group>"; };
+		B1522149592722F7311275CBB11F8FB2 /* SimpleJSONParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleJSONParser-umbrella.h"; sourceTree = "<group>"; };
+		B8A703127DF536A122106E1E6587ECF1 /* SimpleJSONParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleJSONParser-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0BECADF67D0407CD18FE0990AEF8C37 /* SimpleJSONParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleJSONParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBBA462F73485CE775DF937201BF0D3 /* SimpleJSONParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SimpleJSONParser-umbrella.h"; path = "Classes/SimpleJSONParser-umbrella.h"; sourceTree = "<group>"; };
+		F174FCC2BA574FC491E7B84A25FAE496 /* PropertyUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PropertyUtil.h; path = Classes/PropertyUtil.h; sourceTree = "<group>"; };
+		F508429D975F5236E2F1189C3673EE6B /* Pods-SimpleJSONExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleJSONExample-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779897AF09B1D8BF660B0D487D25ECD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1D82A2E55AA0912B6CBE6358CC3B7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9875B3AFBD6AC92283BC09F3F338D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2378C438A166661B4E8187F5759A64C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A9A139A64CAE5BE8E00A3A1FA18546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0741584C880B26E113770C1394957C06 /* Pods_SimpleJSONExample.framework */,
+				C0BECADF67D0407CD18FE0990AEF8C37 /* SimpleJSONParser.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342B95966A4B7EAA9E3A9E8D6D039C56 /* SimpleJSONParser */ = {
+			isa = PBXGroup;
+			children = (
+				0676C308321F7B0E9C41B216F13E1764 /* NSObject+JSON.swift */,
+				F174FCC2BA574FC491E7B84A25FAE496 /* PropertyUtil.h */,
+				5C7178A7111EEF31711F115D13A45C15 /* PropertyUtil.m */,
+				18D021126B175128130762B871D15376 /* SimpleJSONParser.h */,
+				DBBBA462F73485CE775DF937201BF0D3 /* SimpleJSONParser-umbrella.h */,
+				FD4A68C37CCCC174169F7D583153F4AE /* Support Files */,
+			);
+			path = SimpleJSONParser;
+			sourceTree = "<group>";
+		};
+		4A2F538771962B0842E9CC89A11A0973 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB20BDF0E2C46E4BFCFB74C660683E63 /* Pods-SimpleJSONExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A2114A151E97F47E40AA315F53702BA8 /* Pods */,
+				21A9A139A64CAE5BE8E00A3A1FA18546 /* Products */,
+				4A2F538771962B0842E9CC89A11A0973 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2114A151E97F47E40AA315F53702BA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				342B95966A4B7EAA9E3A9E8D6D039C56 /* SimpleJSONParser */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB20BDF0E2C46E4BFCFB74C660683E63 /* Pods-SimpleJSONExample */ = {
+			isa = PBXGroup;
+			children = (
+				A1A9A15112079328183E9C5F3639D44F /* Info.plist */,
+				B094FFC8F2192283C66FE336AD47ACF5 /* Pods-SimpleJSONExample.modulemap */,
+				9B25450342EDEA1D3C16640E4FD968B7 /* Pods-SimpleJSONExample-acknowledgements.markdown */,
+				F508429D975F5236E2F1189C3673EE6B /* Pods-SimpleJSONExample-acknowledgements.plist */,
+				4EBCE5B6CF6A41B9D69E18202959D419 /* Pods-SimpleJSONExample-dummy.m */,
+				59340A9542606392D166BCA046A92180 /* Pods-SimpleJSONExample-frameworks.sh */,
+				9CCB4BE196A4D283DB1FD289EEB518A2 /* Pods-SimpleJSONExample-resources.sh */,
+				3673DB3FCA7246BE5C4BC7A490270F82 /* Pods-SimpleJSONExample-umbrella.h */,
+				A414DA79274C8E783C72340F426AFBD1 /* Pods-SimpleJSONExample.debug.xcconfig */,
+				7B1162155DF28EC673DCA1D94F9CB07A /* Pods-SimpleJSONExample.release.xcconfig */,
+			);
+			name = "Pods-SimpleJSONExample";
+			path = "Target Support Files/Pods-SimpleJSONExample";
+			sourceTree = "<group>";
+		};
+		FD4A68C37CCCC174169F7D583153F4AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				139F9E5E18F6DA616EDBC4900D7C8D77 /* Info.plist */,
+				20C3E034E90F1F72BCE795F9EE2663BC /* SimpleJSONParser.modulemap */,
+				1F0E0F5AEFCA909F479AD3127CB4399B /* SimpleJSONParser.xcconfig */,
+				B8A703127DF536A122106E1E6587ECF1 /* SimpleJSONParser-dummy.m */,
+				0B7882D386DD18EEFA1E6DF527818DB9 /* SimpleJSONParser-prefix.pch */,
+				B1522149592722F7311275CBB11F8FB2 /* SimpleJSONParser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleJSONParser";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B4965416A89BE5DAC6C574AD2033336 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF88BB915899B200A46D426834167E6A /* PropertyUtil.h in Headers */,
+				F28DDAA82E0F01F084A03F880AC7FD57 /* SimpleJSONParser-umbrella.h in Headers */,
+				1DC1B86D72F7F7D581C928F758B934C5 /* SimpleJSONParser-umbrella.h in Headers */,
+				93411D8626BFF2AF136D151785D5C9A1 /* SimpleJSONParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461FB951656888712885688D22208BD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1025CD386776CA82659A3E591D09025C /* Pods-SimpleJSONExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B5FD30FB0A954701BC66C052FC1FD42 /* Pods-SimpleJSONExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA52047659803E9CD73C089B4781735 /* Build configuration list for PBXNativeTarget "Pods-SimpleJSONExample" */;
+			buildPhases = (
+				694D4D58760BB86071A7F4D0E73320F3 /* Sources */,
+				779897AF09B1D8BF660B0D487D25ECD3 /* Frameworks */,
+				461FB951656888712885688D22208BD7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E45F6D7AFF6DED2819D2E42C9000ADBC /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleJSONExample";
+			productName = "Pods-SimpleJSONExample";
+			productReference = 0741584C880B26E113770C1394957C06 /* Pods_SimpleJSONExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F83F54A475A942BA94F39FA7F82623D6 /* SimpleJSONParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B981EFFC657207AE74C9B7C7E40C8CA8 /* Build configuration list for PBXNativeTarget "SimpleJSONParser" */;
+			buildPhases = (
+				5C3C39418942ACB2C1C39BF7EA1A35F5 /* Sources */,
+				D9875B3AFBD6AC92283BC09F3F338D8E /* Frameworks */,
+				3B4965416A89BE5DAC6C574AD2033336 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleJSONParser;
+			productName = SimpleJSONParser;
+			productReference = C0BECADF67D0407CD18FE0990AEF8C37 /* SimpleJSONParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21A9A139A64CAE5BE8E00A3A1FA18546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5FD30FB0A954701BC66C052FC1FD42 /* Pods-SimpleJSONExample */,
+				F83F54A475A942BA94F39FA7F82623D6 /* SimpleJSONParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3C39418942ACB2C1C39BF7EA1A35F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433B8EF2795AC478109EB95DA0D6DA9B /* NSObject+JSON.swift in Sources */,
+				5ED6CF5FA3AFF9006954C126F7C0A7F0 /* PropertyUtil.m in Sources */,
+				A5945E415D85B3BD082D997905E47097 /* SimpleJSONParser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694D4D58760BB86071A7F4D0E73320F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199BBCE11FC76FA28CD45D4AC9B4EAD3 /* Pods-SimpleJSONExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E45F6D7AFF6DED2819D2E42C9000ADBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleJSONParser;
+			target = F83F54A475A942BA94F39FA7F82623D6 /* SimpleJSONParser */;
+			targetProxy = A6E012CBDBF653F88F1FFCDC6A75D33E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D0039C5696F80ED069CA2606C874505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0E0F5AEFCA909F479AD3127CB4399B /* SimpleJSONParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleJSONParser/SimpleJSONParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleJSONParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleJSONParser/SimpleJSONParser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleJSONParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		522F484269A727F7991D6AE20ECA5684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0E0F5AEFCA909F479AD3127CB4399B /* SimpleJSONParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleJSONParser/SimpleJSONParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleJSONParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleJSONParser/SimpleJSONParser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleJSONParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8ED3B0D761C02AA3727FEA905D03DCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1162155DF28EC673DCA1D94F9CB07A /* Pods-SimpleJSONExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleJSONExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleJSONExample/Pods-SimpleJSONExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SimpleJSONExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8F110ACADBAFC707B5536DDECC5B9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A414DA79274C8E783C72340F426AFBD1 /* Pods-SimpleJSONExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleJSONExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleJSONExample/Pods-SimpleJSONExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SimpleJSONExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B981EFFC657207AE74C9B7C7E40C8CA8 /* Build configuration list for PBXNativeTarget "SimpleJSONParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0039C5696F80ED069CA2606C874505 /* Debug */,
+				522F484269A727F7991D6AE20ECA5684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA52047659803E9CD73C089B4781735 /* Build configuration list for PBXNativeTarget "Pods-SimpleJSONExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F110ACADBAFC707B5536DDECC5B9D5 /* Debug */,
+				8ED3B0D761C02AA3727FEA905D03DCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

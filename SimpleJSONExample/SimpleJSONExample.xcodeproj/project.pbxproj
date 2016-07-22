@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9542551B1327870513B3EF /* Pods_SimpleJSONExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AD96BD0A73634F78A1FBA9 /* Pods_SimpleJSONExample.framework */; };
+		D7E0F2351D4233810085FFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0F2341D4233810085FFD4 /* AppDelegate.swift */; };
+		D7E0F2371D4233810085FFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0F2361D4233810085FFD4 /* ViewController.swift */; };
+		D7E0F23A1D4233810085FFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E0F2381D4233810085FFD4 /* Main.storyboard */; };
+		D7E0F23C1D4233810085FFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E0F23B1D4233810085FFD4 /* Assets.xcassets */; };
+		D7E0F23F1D4233810085FFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E0F23D1D4233810085FFD4 /* LaunchScreen.storyboard */; };
+		D7E0F2631D42347D0085FFD4 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0F2621D42347D0085FFD4 /* Test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46AD96BD0A73634F78A1FBA9 /* Pods_SimpleJSONExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleJSONExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A872F08C7F2B3F36B81D2E /* Pods-SimpleJSONExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleJSONExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleJSONExample/Pods-SimpleJSONExample.release.xcconfig"; sourceTree = "<group>"; };
+		D7E0F2311D4233810085FFD4 /* SimpleJSONExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleJSONExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E0F2341D4233810085FFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7E0F2361D4233810085FFD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7E0F2391D4233810085FFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E0F23B1D4233810085FFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E0F23E1D4233810085FFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E0F2401D4233810085FFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E0F2621D42347D0085FFD4 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		F112911D665671B022D54E07 /* Pods-SimpleJSONExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleJSONExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleJSONExample/Pods-SimpleJSONExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E0F22E1D4233810085FFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9542551B1327870513B3EF /* Pods_SimpleJSONExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224F2872A00509B1E6B3F02A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F112911D665671B022D54E07 /* Pods-SimpleJSONExample.debug.xcconfig */,
+				B6A872F08C7F2B3F36B81D2E /* Pods-SimpleJSONExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7E0F2281D4233810085FFD4 = {
+			isa = PBXGroup;
+			children = (
+				D7E0F2331D4233810085FFD4 /* SimpleJSONExample */,
+				D7E0F2321D4233810085FFD4 /* Products */,
+				224F2872A00509B1E6B3F02A /* Pods */,
+				DBA5359FD8C25F97A41AD848 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E0F2321D4233810085FFD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0F2311D4233810085FFD4 /* SimpleJSONExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E0F2331D4233810085FFD4 /* SimpleJSONExample */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0F2621D42347D0085FFD4 /* Test.swift */,
+				D7E0F2341D4233810085FFD4 /* AppDelegate.swift */,
+				D7E0F2361D4233810085FFD4 /* ViewController.swift */,
+				D7E0F2381D4233810085FFD4 /* Main.storyboard */,
+				D7E0F23B1D4233810085FFD4 /* Assets.xcassets */,
+				D7E0F23D1D4233810085FFD4 /* LaunchScreen.storyboard */,
+				D7E0F2401D4233810085FFD4 /* Info.plist */,
+			);
+			path = SimpleJSONExample;
+			sourceTree = "<group>";
+		};
+		DBA5359FD8C25F97A41AD848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46AD96BD0A73634F78A1FBA9 /* Pods_SimpleJSONExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E0F2301D4233810085FFD4 /* SimpleJSONExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E0F2591D4233810085FFD4 /* Build configuration list for PBXNativeTarget "SimpleJSONExample" */;
+			buildPhases = (
+				20ED00833A515DA4EC8683E2 /* Check Pods Manifest.lock */,
+				D7E0F22D1D4233810085FFD4 /* Sources */,
+				D7E0F22E1D4233810085FFD4 /* Frameworks */,
+				D7E0F22F1D4233810085FFD4 /* Resources */,
+				8C94F51314BB83C8F2DEE2B9 /* Embed Pods Frameworks */,
+				4DA5B5A13006C35FF55EF061 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleJSONExample;
+			productName = SimpleJSONExample;
+			productReference = D7E0F2311D4233810085FFD4 /* SimpleJSONExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E0F2291D4233810085FFD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ihor Rapalyuk";
+				TargetAttributes = {
+					D7E0F2301D4233810085FFD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D7E0F22C1D4233810085FFD4 /* Build configuration list for PBXProject "SimpleJSONExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E0F2281D4233810085FFD4;
+			productRefGroup = D7E0F2321D4233810085FFD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E0F2301D4233810085FFD4 /* SimpleJSONExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E0F22F1D4233810085FFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E0F23F1D4233810085FFD4 /* LaunchScreen.storyboard in Resources */,
+				D7E0F23C1D4233810085FFD4 /* Assets.xcassets in Resources */,
+				D7E0F23A1D4233810085FFD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20ED00833A515DA4EC8683E2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA5B5A13006C35FF55EF061 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleJSONExample/Pods-SimpleJSONExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C94F51314BB83C8F2DEE2B9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleJSONExample/Pods-SimpleJSONExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E0F22D1D4233810085FFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E0F2371D4233810085FFD4 /* ViewController.swift in Sources */,
+				D7E0F2351D4233810085FFD4 /* AppDelegate.swift in Sources */,
+				D7E0F2631D42347D0085FFD4 /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7E0F2381D4233810085FFD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E0F2391D4233810085FFD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E0F23D1D4233810085FFD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E0F23E1D4233810085FFD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E0F2571D4233810085FFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7E0F2581D4233810085FFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E0F25A1D4233810085FFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F112911D665671B022D54E07 /* Pods-SimpleJSONExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleJSONExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voidstudio.SimpleJSONExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7E0F25B1D4233810085FFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A872F08C7F2B3F36B81D2E /* Pods-SimpleJSONExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleJSONExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.voidstudio.SimpleJSONExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E0F22C1D4233810085FFD4 /* Build configuration list for PBXProject "SimpleJSONExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E0F2571D4233810085FFD4 /* Debug */,
+				D7E0F2581D4233810085FFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E0F2591D4233810085FFD4 /* Build configuration list for PBXNativeTarget "SimpleJSONExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E0F25A1D4233810085FFD4 /* Debug */,
+				D7E0F25B1D4233810085FFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E0F2291D4233810085FFD4 /* Project object */;
+}

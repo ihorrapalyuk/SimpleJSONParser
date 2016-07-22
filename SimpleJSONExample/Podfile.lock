@@ -1,0 +1,19 @@
+PODS:
+  - SimpleJSONParser (0.1.0)
+
+DEPENDENCIES:
+  - SimpleJSONParser (from `https://github.com/ihorrapalyuk/SimpleJSONParser.git`)
+
+EXTERNAL SOURCES:
+  SimpleJSONParser:
+    :git: https://github.com/ihorrapalyuk/SimpleJSONParser.git
+
+CHECKOUT OPTIONS:
+  SimpleJSONParser:
+    :commit: 827e3dce3c41522235c5f2b9ad21928465c135a1
+    :git: https://github.com/ihorrapalyuk/SimpleJSONParser.git
+
+SPEC CHECKSUMS:
+  SimpleJSONParser: 29b10cc425420722a6c2347a400802bb4d697ca3
+
+COCOAPODS: 0.39.0

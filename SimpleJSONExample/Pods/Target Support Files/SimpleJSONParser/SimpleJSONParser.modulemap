@@ -1,0 +1,6 @@
+framework module SimpleJSONParser {
+  umbrella header "SimpleJSONParser-umbrella.h"
+
+  export *
+  module * { export * }
+}
