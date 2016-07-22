@@ -24,14 +24,7 @@ Cocoapods:
         let test = TestClass.fromJson(dictionary)
 
 
-////////// Test Model
-        //
-        //  TestClass.swift
-        //  MovieMakerApp
-        //
-        //  Created by Ihor Rapalyuk on 7/21/16.
-        //  Copyright © 2016 My. All rights reserved.
-        //
+2) Test Model
 
         import Foundation
 
@@ -46,6 +39,5 @@ Cocoapods:
         public class TestClass2: NSObject {
             var ids: [String] = []
         }
-/////////
 
 
