@@ -26,6 +26,24 @@ class ViewController: UIViewController {
         
         let test = Test.fromJson(dictionary)
         print(test.test2?.ids[0])
+        
+        for _ in 1...20000 {
+            let urlPath: String = "https://google.com"
+            let url: NSURL = NSURL(string: urlPath)!
+            let request1: NSURLRequest = NSURLRequest(URL: url)
+            let queue:NSOperationQueue = NSOperationQueue()
+            
+            NSURLConnection.sendAsynchronousRequest(request1, queue: queue, completionHandler:{ (response: NSURLResponse?, data: NSData?, error: NSError?) -> Void in
+                
+                do {
+                    if let jsonResult = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as? NSDictionary {
+                        print("ASynchronous\(jsonResult)")
+                    }
+                } catch let error as NSError {
+                    print(error.localizedDescription)
+                }
+            })
+        }
     }
 }
 
