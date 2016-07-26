@@ -38,9 +38,8 @@ extension NSObject {
                 var object = jsonDictionary.objectForKey(prop.name)
                 if let objectDict = object as? Dictionary<String, AnyObject>,
                     classType = NSClassFromString(prop.classString) as? NSObject.Type {
-                    var embedObject = classType.init() as? AnyObject
-                    embedObject?.updateWithAnyObject(objectDict)
-                    try self.validateValue(&embedObject, forKey: prop.name)
+                    let embedObject = classType.init()
+                    embedObject.updateWithAnyObject(objectDict)
                     self.setValue(embedObject, forKey: prop.name)
                 } else {
                     try self.validateValue(&object, forKey: prop.name)
