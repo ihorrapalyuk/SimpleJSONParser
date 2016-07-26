@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C5F74006F2569C9D1422D9DB'
+               BlueprintIdentifier = '37DC36A613E194784E567536'
                BlueprintName = 'SimpleJSONParser'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SimpleJSONParser.framework'>

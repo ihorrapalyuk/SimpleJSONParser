@@ -5,7 +5,7 @@ use_frameworks!
 
 target 'SimpleJSONExample' do
 
-pod 'SimpleJSONParser'
+pod 'SimpleJSONParser', :path => '/Users/ihorrapalyuk/Documents/Projects/SimpleJSONParser'
 
 end
 

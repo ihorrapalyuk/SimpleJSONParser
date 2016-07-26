@@ -1,10 +1,14 @@
 PODS:
-  - SimpleJSONParser (0.1.0)
+  - SimpleJSONParser (1.0.0)
 
 DEPENDENCIES:
-  - SimpleJSONParser
+  - SimpleJSONParser (from `/Users/ihorrapalyuk/Documents/Projects/SimpleJSONParser`)
+
+EXTERNAL SOURCES:
+  SimpleJSONParser:
+    :path: /Users/ihorrapalyuk/Documents/Projects/SimpleJSONParser
 
 SPEC CHECKSUMS:
-  SimpleJSONParser: 872da528e94340cc1d674bf0e0287d64fd31cd3b
+  SimpleJSONParser: 8f6cba80d964c5eee1d0b65e90af0ff4b20960d5
 
 COCOAPODS: 0.39.0

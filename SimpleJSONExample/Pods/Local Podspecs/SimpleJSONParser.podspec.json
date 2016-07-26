@@ -1,22 +1,22 @@
 {
   "name": "SimpleJSONParser",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "SimpleJSONParser lets a user simply parse JSON to any NSObject.",
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
-  "homepage": "https://github.com/ihorrapalyuk/SimpleJSONParser",
+  "homepage": "https://www.facebook.com/profile.php?id=100004234983243",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Ihor Rapalyuk": "https://ua.linkedin.com/in/ihor-rapalyuk-9620baa1"
+    "Ihor Rapalyuk": "i.rapalyuk2012@gmail.com"
   },
   "source": {
     "git": "https://github.com/ihorrapalyuk/SimpleJSONParser.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "source_files": "Classes/**/*.{swift,h,m}"
 }
