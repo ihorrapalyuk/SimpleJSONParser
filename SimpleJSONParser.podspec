@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.homepage = "https://ua.linkedin.com/in/ihor-rapalyuk-9620baa1"
+  s.homepage = "https://www.facebook.com/profile.php?id=100004234983243"
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.author = { "Ihor Rapalyuk" => "i.rapalyuk2012@gmail.com" }
   s.source = { :git => "https://github.com/ihorrapalyuk/SimpleJSONParser.git", :tag => "0.1.0"}
